@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 350px;
+    height: auto;
+    border: 5px solid #fff;
+}
+#background {
+    background-color: #68aecf;
+}
+
+.list-view {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.gallery-view{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: row;
+    
+}
+.border-line {
+    border: 5px solid black;
+    padding: 10px;
+    margin: 20px;
+}

@@ -1,0 +1,46 @@
+<html>
+    <body>
+        <h1>Reservation Form</h1>
+        <form action="/submit_reservation" method="post">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter First Name">
+            <br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name">
+            <h2>Address</h2>
+            <label for="number&street">Number & Street:</label>
+            <input type="text" id="number&street" name="number&street" placeholder="Enter Number"><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" placeholder="Enter City"><br>
+            <label for="state">State:</label> 
+            <input type="text" id="state" name="state" placeholder="Enter State"><br>   
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip" placeholder="Enter Zip Code"><br>
+            <label for="checkindate">Check-in Date:</label>
+            <input type="date" id="checkindate" name="checkindate"><br>
+            <label for="checkoutdate">Check-out Date:</label>
+            <input type="date" id="checkoutdate" name="checkoutdate"><br>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" placeholder="(###) ###-####">
+            <label for="(###) ###-####">(###) ###-####</label><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="name@domain.com"><br>
+            <label for="paymentmethod">Payment Method:</label>
+            <select id="paymentmethod" name="paymentmethod">
+                <option value="noselection">No Selection</option>
+                <option value="creditcard">Credit Card</option>
+                <option value="debitcard">Debit Card</option>
+            </select><br>
+            <label for="cardnumber">Card Number:</label>
+            <input type="text" id="cardnumber" name="cardnumber" placeholder="Enter Card Number"><br>
+            <br>
+            <label for="specialrequest">Special Request:</label>
+            <textarea id="specialrequest" name="specialrequest" placeholder="Enter your request here"></textarea><br><br>
+            <button type="submit">Submit</button>
+            <button type="clear">Clear</button>
+
+        </form>
+    </body>
+</html>
+            
+</html>

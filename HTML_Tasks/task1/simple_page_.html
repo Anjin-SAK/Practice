@@ -1,0 +1,80 @@
+<!-- <h1>Application Form</h1>
+
+<p>First Name:<input type="text"> Last Name:<input type="text"></p>
+<p>Date of birth:<input type="date"> Age:<input type="number"></p>
+<p>Gender: <input type="text"> Email Address:<input type="email"></p>
+<p>Positions Available:<input type="radio"> Junior Developer <input type="radio"> Mid-level Developer <input type="radio"> Senior Developer</p>
+<p>Programming Languages:<input type="checkbox"> Java <input type="checkbox"> JavaScript <input type="checkbox"> Python</p>
+<p>Password:<input type="password"> Confirm Password:<input type="password"></p>
+<button>Submit</button> <button>Reset</button>
+
+<label for="comments">Additional Comments:</label><br>
+<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+<label for="Gender">Gender:</label>
+<select id="Gender" name="Gender">
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+</select>
+
+<div>
+<label for="comments">Additional Comments:</label>
+<input type="text" id="myFile" name="filename" placeholder="Choose a file">
+</div>
+<br>
+<br>
+<br> -->
+<form action="/submit_reservation" method="post">
+<div>
+    <label for="firstName">First name:</label>
+    <input type="text" id="firstName" name="firstName" placeholder="Enter First Name">
+    <label for="lastName">Last name:</label>
+    <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name">
+</div>
+<br>
+<div>
+    <label for="dateofbirth">Date of Birth</label>
+    <input type="date" id=" dateofbirth" name="dateofbirth">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age">
+</div>
+<br>
+<div>
+    <label  for="gender">Gender</label>
+    <select id="Gender" name="Gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" placeholder="Enter Email Address">
+</div>
+<br>
+<div>
+    <label for="positionsavailable">Positions Available:</label>
+    <input type="radio" id="juniordeveloper" name="positionsavailable" value="juniordeveloper">
+    <label for="juniordeveloper">Junior Developer</label>
+    <input type="radio" id="midleveldeveloper" name="positionsavailable" value="midleveldeveloper">
+    <label for="midleveldeveloper">Mid-level Developer</label>
+    <input type="radio" id="seniordeveloper" name="positionsavailable" value="seniordeveloper">
+    <label for="seniordeveloper">Senior Developer</label>
+</div>
+<br>
+<div>   
+    <label for="programminglanguages">Programming Languages:</label>
+    <input type="checkbox" id="java" name="programminglanguages" value="java">
+    <label for="java">Java</label>
+    <input type="checkbox" id="javascript" name="programminglanguages" value="javascript">
+    <label for="javascript">JavaScript</label>
+    <input type="checkbox" id="python" name="programminglanguages" value="python">
+    <label for="python">Python</label>
+</div>
+<br>
+<div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter Password">
+    <label for="confirmpassword">Confirm Password:</label>
+    <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password">
+</div>
+<br>    
+</form>
+<button>Submit</button> <button>Reset</button>
