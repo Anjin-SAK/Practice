@@ -1,0 +1,45 @@
+html, body {   
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#box {
+  background-color: rgb(18, 52, 82);
+  width: 400px;
+  height: 600px;
+  margin: 15px;
+}
+#display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: white;;
+  height: 220px;
+  margin: 10px;
+}
+#result {
+    font-size: 25px;
+    padding: 20px;
+}
+#keypad {
+  background-color: white;
+  height: 330px;
+  margin: 10px;
+}
+button {
+  width: 80px;
+  height: 55px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+
+}
+.calc-button {
+  background-color:lightgray;
+  color: black;
+  background-color: orange;
+  color: black;
+}
