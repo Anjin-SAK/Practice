@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Distance</title>
+</head>
+<body>
+
+  <h1>Distance: <span id="distance">0</span> cm</h1>
+
+  <script src="/socket.io/socket.io.js"></script>
+
+  <script>
+    const socket = io();
+
+    socket.on("distance", (data) => {
+      document.getElementById("distance").innerText = data;
+    });
+  </script>
+
+</body>
+</html>
